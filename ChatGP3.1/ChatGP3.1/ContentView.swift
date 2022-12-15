@@ -13,6 +13,8 @@ struct ContentView: View {
             Image(systemName: "airpods")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
+            Text("This is a new feature added")
+                .foregroundColor(.blue)
             Text("Chat GP3.1 Dev 1.0 Feature")
         }
         .padding()
